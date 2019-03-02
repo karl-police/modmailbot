@@ -1,9 +1,9 @@
 {
-  "token": process.env.TOKEN,
-  "mailGuildId": process.env.mailGuildId,
-  "mainGuildId": process.env.mainGuildId,
-  "logChannelId": process.env.logChannelId,
+  "token": StringIO.new(ENV['TOKEN'])
+  "mailGuildId": StringIO.new(ENV['mailGuildId'])
+  "mainGuildId": StringIO.new(ENV['mainGuildId'])
+  "logChannelId": StringIO.new(ENV['logChannelId'])
 
-  "status": process.env.status,
-  "responseMessage": process.env.responseMessage
+  "status": StringIO.new(ENV['status'])
+  "responseMessage": StringIO.new(ENV['responseMessage'])
 }
