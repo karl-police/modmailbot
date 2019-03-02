@@ -1,0 +1,10 @@
+
+{
+  "token": TOKEN,
+  "mailGuildId": mailGuildId,
+  "mainGuildId": mainGuildId,
+  "logChannelId": logChannelId,
+
+  "status": status,
+  "responseMessage": responseMessage
+}
